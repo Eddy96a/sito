@@ -10,7 +10,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: seagreen;
+    background-image: url('https://www.costacrociere.it/content/dam/costa/costa-magazine/articles-magazine/travel/cartagena-travel/cartagena_d.jpg.image.1296.974.high.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title{
@@ -20,7 +23,11 @@ body {
 
 .wrapper {
     width: 420px;
-    background: rgb(14, 138, 204);
+    background-image: url('https://media.discordapp.net/attachments/1115628780250218546/1205580927514705980/esistente_a_tratti_login_prompt_bacground_with_green_waves._Sof_6fa62a9e-2a32-4d89-80cb-bdc28f39660e.png?ex=65d8e3bb&is=65c66ebb&hm=99c4daff780556db135d6224527443f36b45f8d6f15f782d59208c2e60f19fc4&=&format=webp&quality=lossless&width=662&height=662');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:rgba(255, 255, 255, 0.5);
     color: #fff;
     display: flex;
     justify-content: center;
