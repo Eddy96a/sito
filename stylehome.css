@@ -1,0 +1,80 @@
+@import url('http://127.0.0.1:5500/il%20mio%20sito%20web/sito/indexhome.html');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'il%20mio%20sito%20web', sans-serif;
+}
+body {
+    background: #eaeaea;
+    
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background-color: #484b49;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+.logo {
+   font-size: 25px; 
+   color: wheat;
+   text-decoration: nome;
+   font-weight: 600;
+   text-decoration: none;
+}
+.navbar a {
+    font-size: 18px;
+    color: wheat;
+    text-decoration: nome;
+    font-weight: 500;
+    margin: 0 2px;
+    transition: .3s;
+    text-decoration: none;
+}
+.navbar a:hover
+.header a.active {
+    color: #ffffff;
+}
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+}
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid transparent;
+    text-decoration: nome;
+    transform: rotate(45deg);
+    transition: .5s;
+}
+.social-media a:hover {
+    border-color: red;
+}
+.social-media a i {
+    font-size: 24px;
+    color: wheat;
+    transform: rotate(-45deg);
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 8% 0;
+}
+
+.bx .bx1-facebook{
+    border-bottom-color: yellow;
+    color: red;
+}
