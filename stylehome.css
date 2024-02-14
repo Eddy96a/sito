@@ -72,13 +72,7 @@ body {
     color: wheat;
     transform: rotate(-45deg);
 }
-.home {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 50px 8% 0;
-}
+
 
 .i-twitter{
     filter: brightness(0) invert(1);
@@ -99,12 +93,53 @@ body {
     filter: brightness(0) invert(1);
     transform: rotate(-45deg);
 }
-.Ristorante-info {
+
+
+.home {
+    width: 100vh;
+    height: 100vh;
+}
+
+.container {
+    background-color: red;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.Ristorante-image {
+
+.colonna {
+    background-color: rgb(85, 0, 255);
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.home-img {
+    width: 60%;
+}
+
+.home-img img {
+    width: 100%;
+    height: auto;
+}
+
+.home-content {
+    width: 40%;
+}
+
+
+
+
+/* .Ristorante-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .Ristorante-image {
     flex: 0 0 50%;
 }
 .Ristorante-image {
@@ -117,6 +152,6 @@ body {
 }
 .Ristorante-descrizione p {
     margin-bottom: 20px;
-}
+} */
 
 
