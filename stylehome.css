@@ -28,6 +28,8 @@ body {
    text-decoration: none;
 }
 .navbar a {
+    padding: 10px;
+    border-radius: 8px;
     font-size: 18px;
     color: wheat;
     text-decoration: nome;
@@ -36,9 +38,13 @@ body {
     transition: .3s;
     text-decoration: none;
 }
-.navbar a:hover
+.navbar a:hover{
+    background-color: #6e716f;
+}
+
 .header a.active {
     color: #ffffff;
+    
 }
 .social-media {
     display: flex;
@@ -74,7 +80,43 @@ body {
     padding: 50px 8% 0;
 }
 
-.bx .bx1-facebook{
-    border-bottom-color: yellow;
-    color: red;
+.i-twitter{
+    filter: brightness(0) invert(1);
+    transform: rotate(-45deg);
 }
+
+.i-twitter:hover{
+    filter: invert(42%) sepia(93%) saturate(1352%);
+}
+
+
+.i-instagram {
+    filter: brightness(0) invert(1);
+    transform: rotate(-45deg);
+}
+
+.i-facebook {
+    filter: brightness(0) invert(1);
+    transform: rotate(-45deg);
+}
+.Ristorante-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Ristorante-image {
+    flex: 0 0 50%;
+}
+.Ristorante-image {
+    max-width: 100%;
+    height: auto;
+}
+.Ristorante-descrizione {
+    flex: 0 0 50%;
+    padding-left: 20px;
+}
+.Ristorante-descrizione p {
+    margin-bottom: 20px;
+}
+
+
