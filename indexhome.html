@@ -59,11 +59,22 @@
     </div>
     <footer>
         <div class="tornasu">
-            <button class="tornabutton" onclick="scrollToTop()">Torna su</button>
+            <button class="tornabutton" onclick="scrollToTop()">
+                <span>Torna su</span><img src="arrowup.png" width="18px">
+            </button>
         </div>
-        <div class="tipiace">
-            ti piace il sito ?
+        <div class="centrato">
+            <div class="tipiace-container">
+                <div class="tipiace-left">
+                    <h3>ti piace il sito ?</h3>
+                    Ciao sono un testo, un giorno qualcuno mi cambierà.
+                </div>
+                <div class="tipiace-right">
+                    <button class="tipiace-button" onclick="tipiace()">Ti piace il nuovo sito ?</button>
+                </div>
+            </div>
         </div>
+        
     </footer>
 
     
@@ -75,6 +86,11 @@
             top: 0,
             behavior: 'smooth'
         });
+    }
+
+
+    function tipiace(){
+        alert("Puoi solo confermare che ti piace!");
     }
 </script>
 
