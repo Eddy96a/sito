@@ -59,7 +59,7 @@
     </div>
     <footer>
         <div class="tornasu">
-            <button>Torna su</button>
+            <button class="tornabutton" onclick="scrollToTop()">Torna su</button>
         </div>
         <div class="tipiace">
             ti piace il sito ?
@@ -69,5 +69,13 @@
     
 
 </body>
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>
 
 </html>
